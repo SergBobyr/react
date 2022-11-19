@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dfdb355-c79d-40f8-9f22-fda92df94523" name="Changes" comment="three-hw-js">
-      <change afterPath="$PROJECT_DIR$/js/lesson4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lesson4/main.js" afterDir="false" />
+    <list default="true" id="0dfdb355-c79d-40f8-9f22-fda92df94523" name="Changes" comment="four-hw-js">
+      <change afterPath="$PROJECT_DIR$/js/lesson5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/lesson5/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lesson3/home-work/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson3/home-work/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lesson3/home-work/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson3/home-work/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson4/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,17 @@
       <workItem from="1667744299350" duration="1805000" />
       <workItem from="1667927980026" duration="6826000" />
       <workItem from="1668021889357" duration="53000" />
-      <workItem from="1668097380895" duration="4893000" />
+      <workItem from="1668097380895" duration="5141000" />
+      <workItem from="1668103935986" duration="1996000" />
+      <workItem from="1668280778127" duration="1201000" />
+      <workItem from="1668352407720" duration="307000" />
+      <workItem from="1668352727909" duration="678000" />
+      <workItem from="1668363727804" duration="2622000" />
+      <workItem from="1668535871246" duration="9564000" />
+      <workItem from="1668712370908" duration="1918000" />
+      <workItem from="1668795605265" duration="1980000" />
+      <workItem from="1668863184499" duration="2960000" />
+      <workItem from="1668881611853" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="one-hw-js">
       <created>1667323530411</created>
@@ -99,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667930831847</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="four-hw-js">
+      <created>1668102394899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668102394899</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +137,7 @@
     <MESSAGE value="one-hw-js" />
     <MESSAGE value="two-hw-js" />
     <MESSAGE value="three-hw-js" />
-    <option name="LAST_COMMIT_MESSAGE" value="three-hw-js" />
+    <MESSAGE value="four-hw-js" />
+    <option name="LAST_COMMIT_MESSAGE" value="four-hw-js" />
   </component>
 </project>
