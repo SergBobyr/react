@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dfdb355-c79d-40f8-9f22-fda92df94523" name="Changes" comment="five-hw-js">
-      <change afterPath="$PROJECT_DIR$/js/lessson6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/lessson6/main.js" afterDir="false" />
+    <list default="true" id="0dfdb355-c79d-40f8-9f22-fda92df94523" name="Changes" comment="ten-hw-js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +19,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2GxErRxOB93j7AT4iSjPHJbxRWr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,6 +48,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Программирование/Курсы IT/training-it&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -79,7 +83,25 @@
       <workItem from="1668863184499" duration="2960000" />
       <workItem from="1668881611853" duration="1565000" />
       <workItem from="1669136741936" duration="3075000" />
-      <workItem from="1669307089648" duration="6489000" />
+      <workItem from="1669307089648" duration="6795000" />
+      <workItem from="1669401592189" duration="5624000" />
+      <workItem from="1669474276512" duration="3082000" />
+      <workItem from="1669558543727" duration="3117000" />
+      <workItem from="1669576932031" duration="2697000" />
+      <workItem from="1669661523249" duration="2030000" />
+      <workItem from="1669830288977" duration="4912000" />
+      <workItem from="1670007547837" duration="3283000" />
+      <workItem from="1670342847136" duration="6081000" />
+      <workItem from="1670606579843" duration="2099000" />
+      <workItem from="1670683749339" duration="1454000" />
+      <workItem from="1670685229769" duration="1101000" />
+      <workItem from="1670686461747" duration="409000" />
+      <workItem from="1670704848640" duration="3480000" />
+      <workItem from="1670761212359" duration="4813000" />
+      <workItem from="1670784747734" duration="3637000" />
+      <workItem from="1670863645430" duration="3352000" />
+      <workItem from="1671042723038" duration="1335000" />
+      <workItem from="1671130334358" duration="948000" />
     </task>
     <task id="LOCAL-00001" summary="one-hw-js">
       <created>1667323530411</created>
@@ -123,7 +145,77 @@
       <option name="project" value="LOCAL" />
       <updated>1668882590084</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="six-hw-js">
+      <created>1669314445351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669314445351</updated>
+    </task>
+    <task id="LOCAL-00008" summary="eight-hw-js">
+      <created>1670684691630</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670684691630</updated>
+    </task>
+    <task id="LOCAL-00009" summary="eight-hw-js">
+      <created>1670684858699</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670684858699</updated>
+    </task>
+    <task id="LOCAL-00010" summary="eight-hw-js">
+      <created>1670685252161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670685252161</updated>
+    </task>
+    <task id="LOCAL-00011" summary="eight-hw-js">
+      <created>1670686252623</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670686252623</updated>
+    </task>
+    <task id="LOCAL-00012" summary="eight-hw-js">
+      <created>1670686374447</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670686374447</updated>
+    </task>
+    <task id="LOCAL-00013" summary="deleted useless video files">
+      <created>1670863872479</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670863872479</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ten-hw-js">
+      <created>1670864562588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670864562588</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ten-hw-js">
+      <created>1670866115647</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670866115647</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ten-hw-js">
+      <created>1671042767381</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671042767397</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +239,10 @@
     <MESSAGE value="three-hw-js" />
     <MESSAGE value="four-hw-js" />
     <MESSAGE value="five-hw-js" />
-    <option name="LAST_COMMIT_MESSAGE" value="five-hw-js" />
+    <MESSAGE value="six-hw-js" />
+    <MESSAGE value="eight-hw-js" />
+    <MESSAGE value="deleted useless video files" />
+    <MESSAGE value="ten-hw-js" />
+    <option name="LAST_COMMIT_MESSAGE" value="ten-hw-js" />
   </component>
 </project>
