@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let apiUrl='https://jsonplaceholder.typicode.com/users/'
+let url = new URL(location.href)
+    let id = url.searchParams.get('id');
+fetch(apiUrl+id)
+    .then(value=>value.json())
+    .then(users=>{
+        console.log(users.email);
+        let div = document.createElement('div')
+        document.body.append(div)
+        div.innerText = `id: ${users.id};
+         name: ${users.name};
+          username: ${users.username};
+            address- street: ${users.address.street};
+             suite: ${users.address.suite};
+             city: ${users.address.city};
+        zipcode: ${users.address.zipcode};
+         geo- lat: ${users.address.geo.lat};
+         lng: ${users.address.geo.lng};
+         phone: ${users.phone};
+         website: ${users.website};
+         company - name:${users.company.name};
+         catchPhrase:${users.company.catchPhrase};
+         bs:${users.company.bs};
+          `
+    })
+
+
+</script>
+
+</body>
+</html>
