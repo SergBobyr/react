@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let url = new URL(location.href);
+    let post = url.searchParams.get('qwe')
+    let parse = JSON.parse(post)
+    let div = document.createElement('div');
+    document.body.append(div);
+    div.innerText = `userId: ${parse.userId};
+    id: ${parse.id};
+    title: ${parse.title};
+    body: ${parse.body}; `
+    let apiUrl = 'https://jsonplaceholder.typicode.com/posts/'
+    fetch(apiUrl + parse.id + '/comments')
+        .then(value => value.json())
+        .then(comments => {
+                for (const comment of comments) {
+                    let div = document.createElement('div')
+                    document.body.append(div)
+                    div.innerText = `
+        postId: ${comment.postId};
+        id: ${comment.id};
+        name: ${comment.name};
+        body: ${comment.body};`
+                }
+            }
+        )
+
+
+</script>
+</body>
+</html>

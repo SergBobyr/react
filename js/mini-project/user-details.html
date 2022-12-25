@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button class="btn">post of current user</button>
+<div class="target"></div>
+<script>
+    let apiUrl = 'https://jsonplaceholder.typicode.com/users/'
+    let url = new URL(location.href)
+    let id = url.searchParams.get('id');
+    fetch(apiUrl + id)
+        .then(value => value.json())
+        .then(users => {
+            let div = document.createElement('div')
+            document.body.append(div)
+            div.innerText = `id: ${users.id};
+         name: ${users.name};
+         username: ${users.username};
+         email: ${users.email};
+         address: street: ${users.address.street};
+                  suite: ${users.address.suite};
+                  city: ${users.address.city};
+                  zipcode: ${users.address.zipcode};
+                  geo: lat: ${users.address.geo.lat};
+                       lng: ${users.address.geo.lng};
+phone: ${users.phone};
+website: ${users.website};
+company: name: ${users.company.name};
+ catchPhrase: ${users.company.catchPhrase};
+ bs: ${users.company.bs};`
+        })
+    let btn = document.querySelector('.btn');
+    let target = document.querySelector('.target');
+    btn.onclick = function () {
+        let apiUrl = 'https://jsonplaceholder.typicode.com/users/'
+        let url = new URL(location.href)
+        let id = url.searchParams.get('id');
+        fetch(apiUrl + id + '/posts')
+            .then(value => value.json())
+            .then(posts => {
+                for (const post of posts) {
+                    let div = document.createElement('div')
+                    document.body.append(div)
+                    div.innerText = `title: ${post.title};`
+                    let a = document.createElement('a');
+                    let btn = document.createElement('button');
+                    a.append(btn);
+                    a.href = 'post-details.html?qwe=' + JSON.stringify(post);
+                    div.append(a)
+                }
+            })
+    }
+</script>
+</body>
+</html>
