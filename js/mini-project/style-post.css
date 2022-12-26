@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+   align-items: center;
+}
+.com {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.divCom{
+margin-top: 30px;
+    width: 25%;
+    border: solid black 1px;
+    box-sizing: border-box;
+
+ }

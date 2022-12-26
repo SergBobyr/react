@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style-post.css">
 </head>
 <body>
+<div class="container">
+    <div class="com"></div>
+</div>
 <script>
+
+    let com = document.querySelector('.com')
+    let container = document.querySelector('.container')
+
     let url = new URL(location.href);
     let post = url.searchParams.get('qwe')
     let parse = JSON.parse(post)
     let div = document.createElement('div');
-    document.body.append(div);
+    container.append(div);
+    div.classList.add('divInf');
     div.innerText = `userId: ${parse.userId};
     id: ${parse.id};
     title: ${parse.title};
@@ -21,7 +30,8 @@
         .then(comments => {
                 for (const comment of comments) {
                     let div = document.createElement('div')
-                    document.body.append(div)
+                    com.append(div)
+                    div.classList.add('divCom');
                     div.innerText = `
         postId: ${comment.postId};
         id: ${comment.id};

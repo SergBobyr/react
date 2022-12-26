@@ -16,7 +16,7 @@
 
 /*Стилизація проєкта -*/
 /*index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
-/*                                                     user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширины сторінки, по центру.*/
+
 /*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*/
 /*блоки з короткою іфною про post - в ряд по 5 .*/
 /*                                             post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
@@ -28,18 +28,20 @@
 
 fetch('https://jsonplaceholder.typicode.com/users').then(response => response.json()).then((value) => {
     let {data} = value;
-
+let container = document.createElement('div');
+container.classList.add('container');
+    document.body.append(container);
     for (const item of value) {
         let div = document.createElement('div');
 div.classList.add('div')
-        document.body.append(div);
+        container.append(div)
         div.innerText = `${item.id} ${item.name}`;
         let a = document.createElement('a');
         let btn = document.createElement('button');
         a.append(btn);
         a.href = 'user-details.html?id=' + item.id
         div.append(a)
-
+        btn.classList.add('btn')
     }
 
 })

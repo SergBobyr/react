@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dfdb355-c79d-40f8-9f22-fda92df94523" name="Changes" comment="ten-hw-js-jsonplaceholder">
-      <change afterPath="$PROJECT_DIR$/js/mini-project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/user-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="0dfdb355-c79d-40f8-9f22-fda92df94523" name="Changes" comment="mini-project-js">
+      <change afterPath="$PROJECT_DIR$/js/mini-project/style-post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/mini-project/style-user.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/user-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -122,7 +122,8 @@
       <workItem from="1671906613252" duration="4559000" />
       <workItem from="1671912443415" duration="4209000" />
       <workItem from="1671977523975" duration="4000000" />
-      <workItem from="1671982325182" duration="370000" />
+      <workItem from="1671982325182" duration="7817000" />
+      <workItem from="1672080546329" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="one-hw-js">
       <created>1667323530411</created>
@@ -250,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671390830007</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mini-project-js">
+      <created>1671982984483</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671982984483</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +287,7 @@
     <MESSAGE value="deleted useless video files" />
     <MESSAGE value="ten-hw-js" />
     <MESSAGE value="ten-hw-js-jsonplaceholder" />
-    <option name="LAST_COMMIT_MESSAGE" value="ten-hw-js-jsonplaceholder" />
+    <MESSAGE value="mini-project-js" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini-project-js" />
   </component>
 </project>

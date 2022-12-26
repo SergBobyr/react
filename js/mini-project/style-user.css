@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.btnC{
+    display: flex;
+   flex-direction: row;
+
+    flex-wrap: wrap;
+}
+.btn {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+margin-left: 5%;
+    margin-top: 20px;
+}
+.info{
+    margin-left: 30px;
+    background: silver;
+    height: 100%;
+    width: 40%;
+}
+.divI{
+    box-sizing: border-box;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid black 1px;
+}
+.btnI{
+    width: 30px;
+    height: 15px;
+}

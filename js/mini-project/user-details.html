@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="style-user.css">
 </head>
 <body>
+
+<div class="target">
+    <div class = "info"></div>
+    <hr>
+    <div class = "btnC"></div>
+</div>
 <button class="btn">post of current user</button>
-<div class="target"></div>
+
 <script>
+let info = document.querySelector('.info');
+let btnC = document.querySelector('.btnC')
     let apiUrl = 'https://jsonplaceholder.typicode.com/users/'
     let url = new URL(location.href)
     let id = url.searchParams.get('id');
@@ -15,7 +24,7 @@
         .then(value => value.json())
         .then(users => {
             let div = document.createElement('div')
-            document.body.append(div)
+          info.append(div)
             div.innerText = `id: ${users.id};
          name: ${users.name};
          username: ${users.username};
@@ -32,8 +41,10 @@ company: name: ${users.company.name};
  catchPhrase: ${users.company.catchPhrase};
  bs: ${users.company.bs};`
         })
+
+
+
     let btn = document.querySelector('.btn');
-    let target = document.querySelector('.target');
     btn.onclick = function () {
         let apiUrl = 'https://jsonplaceholder.typicode.com/users/'
         let url = new URL(location.href)
@@ -43,10 +54,12 @@ company: name: ${users.company.name};
             .then(posts => {
                 for (const post of posts) {
                     let div = document.createElement('div')
-                    document.body.append(div)
+                    div.classList.add('divI');
+                    btnC.append(div)
                     div.innerText = `title: ${post.title};`
                     let a = document.createElement('a');
                     let btn = document.createElement('button');
+                    btn.classList.add('btnI');
                     a.append(btn);
                     a.href = 'post-details.html?qwe=' + JSON.stringify(post);
                     div.append(a)
@@ -54,5 +67,6 @@ company: name: ${users.company.name};
             })
     }
 </script>
+
 </body>
 </html>
