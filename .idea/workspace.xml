@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dfdb355-c79d-40f8-9f22-fda92df94523" name="Changes" comment="mini-project-js">
-      <change afterPath="$PROJECT_DIR$/js/mini-project/style-post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/style-user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mini-project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mini-project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mini-project/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/post-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mini-project/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/mini-project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/user-details.html" afterDir="false" />
-    </list>
+    <list default="true" id="0dfdb355-c79d-40f8-9f22-fda92df94523" name="Changes" comment="mini-project-style-js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,6 +115,7 @@
       <workItem from="1671977523975" duration="4000000" />
       <workItem from="1671982325182" duration="7817000" />
       <workItem from="1672080546329" duration="4369000" />
+      <workItem from="1672084986461" duration="445000" />
     </task>
     <task id="LOCAL-00001" summary="one-hw-js">
       <created>1667323530411</created>
@@ -258,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671982984483</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="mini-project-style-js">
+      <created>1672085036424</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672085036424</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +287,7 @@
     <MESSAGE value="ten-hw-js" />
     <MESSAGE value="ten-hw-js-jsonplaceholder" />
     <MESSAGE value="mini-project-js" />
-    <option name="LAST_COMMIT_MESSAGE" value="mini-project-js" />
+    <MESSAGE value="mini-project-style-js" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini-project-style-js" />
   </component>
 </project>
